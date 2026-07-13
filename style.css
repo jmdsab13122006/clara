@@ -1,0 +1,254 @@
+body {
+
+    margin:0;
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+
+    background:#eadbc5;
+
+    font-family:Georgia, serif;
+
+}
+
+
+.livro {
+
+    width:700px;
+
+}
+
+
+.pagina {
+
+    display:none;
+
+
+    background:#fffaf0;
+
+
+    padding:60px;
+
+
+    min-height:600px;
+
+
+    border:3px solid #c49a6c;
+
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,0.2);
+
+
+}
+
+
+.pagina.ativa {
+
+    display:block;
+
+}
+
+
+
+h1, h2 {
+
+    text-align:center;
+
+    color:#704214;
+
+}
+
+
+
+p {
+
+    font-size:20px;
+
+    line-height:1.8;
+
+    text-align:justify;
+
+}
+
+
+
+button {
+
+    background:#9b5c46;
+
+    color:white;
+
+
+    border:none;
+
+    padding:12px 25px;
+
+
+    border-radius:20px;
+
+
+    cursor:pointer;
+
+    font-size:16px;
+
+}
+
+
+
+button:hover {
+
+    transform:scale(1.05);
+
+}
+
+
+
+.botoes {
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-top:40px;
+
+}
+
+.galeria{
+
+    display:flex;
+
+    justify-content:space-around;
+
+    gap:25px;
+
+    margin-bottom:40px;
+
+}
+
+
+.foto{
+
+    width:170px;
+
+    height:220px;
+
+    background:white;
+
+    padding:10px;
+
+    border:1px solid #ddd;
+
+    box-shadow:0 6px 15px rgba(0,0,0,.25);
+
+    transform:rotate(-3deg);
+
+}
+
+
+.foto:nth-child(2){
+
+    transform:rotate(2deg);
+
+}
+
+.foto:nth-child(3){
+
+    transform:rotate(-1deg);
+
+}
+
+
+.foto img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+}
+
+
+.motivos{
+
+    font-size:19px;
+
+    line-height:2;
+
+}
+.galeria{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:25px;
+
+    margin:30px 0 40px 0;
+
+    flex-wrap:wrap;
+
+}
+
+
+.foto{
+
+    width:170px;
+
+    height:220px;
+
+    border:3px dashed #999;
+
+    border-radius:10px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:#f8f8f8;
+
+    color:#777;
+
+    font-weight:bold;
+
+}
+
+.audio-box{
+
+    text-align:center;
+
+    margin:40px 0;
+
+}
+
+.audio-box h3{
+
+    color:#704214;
+
+    margin-bottom:10px;
+
+}
+
+.audio-box p{
+
+    text-align:center;
+
+    margin-bottom:20px;
+
+}
+
+audio{
+
+    width:100%;
+    max-width:350px;
+
+}
